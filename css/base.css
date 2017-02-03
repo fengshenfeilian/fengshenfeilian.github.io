@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/*index.css*/
 .ibody { background: url(../imgs/bg.png) repeat-y; width:1000px; margin:auto; box-shadow: -2px -1 5px #666;}
 .top {background:url(../imgs/fzz.jpg) no-repeat center; height:200px; margin: 10px auto; width:100%; font-family:"MS Serif", "New York", serif;}
 header { position: relative; background: url(../imgs/ibodybg.png) top right no-repeat }
@@ -108,7 +109,7 @@ aside { width: 27%;  float: right; }
 .topspace { background: #F30; padding: 20px 10px; color: #fff; text-shadow: 1px 1px rgba(0,0,0,.3); }
 .topspace h1 { font-size: 16px; line-height: 40px; font-weight: bold; }
 .about_c { margin: 10px 0; color: #fff; line-height: 26px; }
-.about_c p:first-child, .about_c p:nth-child(2), .about_c p:nth-child(3), .about_c p:nth-child(4), .about_c p:last-child { background: url(../images/about_c.png) no-repeat; }
+.about_c p:first-child, .about_c p:nth-child(2), .about_c p:nth-child(3), .about_c p:nth-child(4), .about_c p:last-child{}
 .about_c p:first-child { background-position: 15px 6px; }
 .about_c p:nth-child(2) { background-position: 15px -20px }
 .about_c p:nth-child(3) { background-position: 15px -48px }
@@ -116,3 +117,14 @@ aside { width: 27%;  float: right; }
 .about_c p:last-child { background-position:15px -97px }
 .about_c p { display: block; padding-left: 40px; }
 .about_c p:hover { background: #222 }
+.about_c p a:first-child, .about_c p a:nth-child(2), .about_c p a:last-child{};
+.about_c p a:first-child { background-position: 15px 4px;}
+.about_c p a:nth-child(2) { background-position: 15px -20px }
+.about_c p a:last-child { background-position: 15px -50px }
+.about_c p a{ color:#fff; display: block; padding-left: 0px; width:27% }
+.about_c p a:hover { background: #222 }
+/*about.css*/
+p.about_self { line-height:20px; font-size:18px; }
+/*blog_text.css*/
+.bloglist p a { font-size:16px; color:#00C; text-decoration:none; line-height:20px; }
+.bolglist p a:hover { color:#000; }
